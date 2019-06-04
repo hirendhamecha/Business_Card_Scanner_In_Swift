@@ -1,5 +1,5 @@
 # Business_Card_Scanner_In_Swift
-You can scan your cards and get contact details and other business details easily.....
+<br>
 <p> <u>Please follow this steps to run this app.</u></p>
 
 
