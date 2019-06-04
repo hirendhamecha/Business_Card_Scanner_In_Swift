@@ -6,7 +6,7 @@ You can scan business card easily with ios swift.
 
 
 <p> Download this files from given url : </p>
-https://www.dropbox.com/sh/2tvqrxv2r7zaw6h/AAA96R6GGWE4DDC0VF0WievYa?dl=0 <br>
+https://www.dropbox.com/sh/2tvqrxv2r7zaw6h/AAA96R6GGWE4DDC0VF0WievYa?dl=0 <br><br>
 
 and drag and drop folder in your project.<br><br>
 <i>
