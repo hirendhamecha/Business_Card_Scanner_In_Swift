@@ -1,4 +1,6 @@
 # Business_Card_Scanner_In_Swift
+You can scan business card easily with ios swift.
+
 <br>
 <p> <u>Please follow this steps to run this app.</u></p>
 
