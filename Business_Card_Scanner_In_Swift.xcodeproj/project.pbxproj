@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A343AA22A2A49B00E4AA92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343A922A2A49B00E4AA92 /* AppDelegate.swift */; };
+		50A343AC22A2A49B00E4AA92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343AB22A2A49B00E4AA92 /* ViewController.swift */; };
+		50A343AF22A2A49B00E4AA92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A343AD22A2A49B00E4AA92 /* Main.storyboard */; };
+		50A343B222A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50A343B022A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift.xcdatamodeld */; };
+		50A343B422A2A4A800E4AA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A343B322A2A4A800E4AA92 /* Assets.xcassets */; };
+		50A343B722A2A4A800E4AA92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A343B522A2A4A800E4AA92 /* LaunchScreen.storyboard */; };
+		50A343C022A2AAC400E4AA92 /* ScannedInfoShowDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343BF22A2AAC400E4AA92 /* ScannedInfoShowDetailsVC.swift */; };
+		50A343CB22A2B36000E4AA92 /* CropRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343C222A2B36000E4AA92 /* CropRectView.swift */; };
+		50A343CC22A2B36000E4AA92 /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343C322A2B36000E4AA92 /* CropView.swift */; };
+		50A343CD22A2B36000E4AA92 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343C522A2B36000E4AA92 /* CropViewController.swift */; };
+		50A343CE22A2B36000E4AA92 /* PhotoCropEditorBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A343C622A2B36000E4AA92 /* PhotoCropEditorBorder.png */; };
+		50A343CF22A2B36000E4AA92 /* PhotoCropEditorBorder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A343C722A2B36000E4AA92 /* PhotoCropEditorBorder@2x.png */; };
+		50A343D022A2B36000E4AA92 /* PhotoCropEditorBorder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A343C822A2B36000E4AA92 /* PhotoCropEditorBorder@3x.png */; };
+		50A343D122A2B36000E4AA92 /* ResizeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343C922A2B36000E4AA92 /* ResizeControl.swift */; };
+		50A343D222A2B36000E4AA92 /* UIImage+Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343CA22A2B36000E4AA92 /* UIImage+Crop.swift */; };
+		50A343DA22A2B3E600E4AA92 /* CardDetectionUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343D422A2B3E600E4AA92 /* CardDetectionUtility.swift */; };
+		50A343DB22A2B3E600E4AA92 /* DetectionUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343D522A2B3E600E4AA92 /* DetectionUtility.swift */; };
+		50A343DC22A2B3E600E4AA92 /* FaceDetectionUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343D622A2B3E600E4AA92 /* FaceDetectionUtility.swift */; };
+		50A343DD22A2B3E600E4AA92 /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343D722A2B3E600E4AA92 /* ImageUtils.swift */; };
+		50A343DE22A2B3E600E4AA92 /* OCRUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343D822A2B3E600E4AA92 /* OCRUtility.swift */; };
+		50A343DF22A2B3E600E4AA92 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343D922A2B3E600E4AA92 /* Utilities.swift */; };
+		95F5F5F2E2FBC5184F260260 /* Pods_Business_Card_Scanner_In_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C033764DC219A785AD1B942 /* Pods_Business_Card_Scanner_In_Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C1EFF94DCD3F0291B4CD781 /* Pods-Business_Card_Scanner_In_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business_Card_Scanner_In_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Business_Card_Scanner_In_Swift/Pods-Business_Card_Scanner_In_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		50A343A622A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Business_Card_Scanner_In_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A343A922A2A49B00E4AA92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50A343AB22A2A49B00E4AA92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50A343AE22A2A49B00E4AA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50A343B122A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Business_Card_Scanner_In_Swift.xcdatamodel; sourceTree = "<group>"; };
+		50A343B322A2A4A800E4AA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A343B622A2A4A800E4AA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50A343B822A2A4A800E4AA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A343BF22A2AAC400E4AA92 /* ScannedInfoShowDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedInfoShowDetailsVC.swift; sourceTree = "<group>"; };
+		50A343C222A2B36000E4AA92 /* CropRectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropRectView.swift; sourceTree = "<group>"; };
+		50A343C322A2B36000E4AA92 /* CropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropView.swift; sourceTree = "<group>"; };
+		50A343C422A2B36000E4AA92 /* CropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropViewController.h; sourceTree = "<group>"; };
+		50A343C522A2B36000E4AA92 /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
+		50A343C622A2B36000E4AA92 /* PhotoCropEditorBorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhotoCropEditorBorder.png; sourceTree = "<group>"; };
+		50A343C722A2B36000E4AA92 /* PhotoCropEditorBorder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhotoCropEditorBorder@2x.png"; sourceTree = "<group>"; };
+		50A343C822A2B36000E4AA92 /* PhotoCropEditorBorder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhotoCropEditorBorder@3x.png"; sourceTree = "<group>"; };
+		50A343C922A2B36000E4AA92 /* ResizeControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizeControl.swift; sourceTree = "<group>"; };
+		50A343CA22A2B36000E4AA92 /* UIImage+Crop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Crop.swift"; sourceTree = "<group>"; };
+		50A343D422A2B3E600E4AA92 /* CardDetectionUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetectionUtility.swift; sourceTree = "<group>"; };
+		50A343D522A2B3E600E4AA92 /* DetectionUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectionUtility.swift; sourceTree = "<group>"; };
+		50A343D622A2B3E600E4AA92 /* FaceDetectionUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceDetectionUtility.swift; sourceTree = "<group>"; };
+		50A343D722A2B3E600E4AA92 /* ImageUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		50A343D822A2B3E600E4AA92 /* OCRUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCRUtility.swift; sourceTree = "<group>"; };
+		50A343D922A2B3E600E4AA92 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		881BDC2DA0C3095759F54997 /* Pods-Business_Card_Scanner_In_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business_Card_Scanner_In_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Business_Card_Scanner_In_Swift/Pods-Business_Card_Scanner_In_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		9C033764DC219A785AD1B942 /* Pods_Business_Card_Scanner_In_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Business_Card_Scanner_In_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A343A322A2A49B00E4AA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F5F5F2E2FBC5184F260260 /* Pods_Business_Card_Scanner_In_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A3439D22A2A49B00E4AA92 = {
+			isa = PBXGroup;
+			children = (
+				50A343A822A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift */,
+				50A343A722A2A49B00E4AA92 /* Products */,
+				9A5D015E439434A1D70E9426 /* Pods */,
+				BE9A1E227072D04777367483 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50A343A722A2A49B00E4AA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A343A622A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A343A822A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				50A343D322A2B3E600E4AA92 /* Utility */,
+				50A343C122A2B36000E4AA92 /* Croping */,
+				50A343BE22A2AAA300E4AA92 /* Scanned_Details */,
+				50A343A922A2A49B00E4AA92 /* AppDelegate.swift */,
+				50A343AB22A2A49B00E4AA92 /* ViewController.swift */,
+				50A343AD22A2A49B00E4AA92 /* Main.storyboard */,
+				50A343B322A2A4A800E4AA92 /* Assets.xcassets */,
+				50A343B522A2A4A800E4AA92 /* LaunchScreen.storyboard */,
+				50A343B822A2A4A800E4AA92 /* Info.plist */,
+				50A343B022A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift.xcdatamodeld */,
+			);
+			path = Business_Card_Scanner_In_Swift;
+			sourceTree = "<group>";
+		};
+		50A343BE22A2AAA300E4AA92 /* Scanned_Details */ = {
+			isa = PBXGroup;
+			children = (
+				50A343BF22A2AAC400E4AA92 /* ScannedInfoShowDetailsVC.swift */,
+			);
+			path = Scanned_Details;
+			sourceTree = "<group>";
+		};
+		50A343C122A2B36000E4AA92 /* Croping */ = {
+			isa = PBXGroup;
+			children = (
+				50A343C222A2B36000E4AA92 /* CropRectView.swift */,
+				50A343C322A2B36000E4AA92 /* CropView.swift */,
+				50A343C422A2B36000E4AA92 /* CropViewController.h */,
+				50A343C522A2B36000E4AA92 /* CropViewController.swift */,
+				50A343C622A2B36000E4AA92 /* PhotoCropEditorBorder.png */,
+				50A343C722A2B36000E4AA92 /* PhotoCropEditorBorder@2x.png */,
+				50A343C822A2B36000E4AA92 /* PhotoCropEditorBorder@3x.png */,
+				50A343C922A2B36000E4AA92 /* ResizeControl.swift */,
+				50A343CA22A2B36000E4AA92 /* UIImage+Crop.swift */,
+			);
+			path = Croping;
+			sourceTree = "<group>";
+		};
+		50A343D322A2B3E600E4AA92 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				50A343D422A2B3E600E4AA92 /* CardDetectionUtility.swift */,
+				50A343D522A2B3E600E4AA92 /* DetectionUtility.swift */,
+				50A343D622A2B3E600E4AA92 /* FaceDetectionUtility.swift */,
+				50A343D722A2B3E600E4AA92 /* ImageUtils.swift */,
+				50A343D822A2B3E600E4AA92 /* OCRUtility.swift */,
+				50A343D922A2B3E600E4AA92 /* Utilities.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9A5D015E439434A1D70E9426 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C1EFF94DCD3F0291B4CD781 /* Pods-Business_Card_Scanner_In_Swift.debug.xcconfig */,
+				881BDC2DA0C3095759F54997 /* Pods-Business_Card_Scanner_In_Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE9A1E227072D04777367483 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C033764DC219A785AD1B942 /* Pods_Business_Card_Scanner_In_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A343A522A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A343BB22A2A4A800E4AA92 /* Build configuration list for PBXNativeTarget "Business_Card_Scanner_In_Swift" */;
+			buildPhases = (
+				4EE1429BCA8C256CFC253857 /* [CP] Check Pods Manifest.lock */,
+				50A343A222A2A49B00E4AA92 /* Sources */,
+				50A343A322A2A49B00E4AA92 /* Frameworks */,
+				50A343A422A2A49B00E4AA92 /* Resources */,
+				7A3EAAFC0B1D1EA70ECE6071 /* [CP] Embed Pods Frameworks */,
+				01EF6F176CE27528DF4E1AAB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Business_Card_Scanner_In_Swift;
+			productName = Business_Card_Scanner_In_Swift;
+			productReference = 50A343A622A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A3439E22A2A49B00E4AA92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Hiren Dhamecha";
+				TargetAttributes = {
+					50A343A522A2A49B00E4AA92 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 50A343A122A2A49B00E4AA92 /* Build configuration list for PBXProject "Business_Card_Scanner_In_Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50A3439D22A2A49B00E4AA92;
+			productRefGroup = 50A343A722A2A49B00E4AA92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A343A522A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A343A422A2A49B00E4AA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A343B722A2A4A800E4AA92 /* LaunchScreen.storyboard in Resources */,
+				50A343CF22A2B36000E4AA92 /* PhotoCropEditorBorder@2x.png in Resources */,
+				50A343B422A2A4A800E4AA92 /* Assets.xcassets in Resources */,
+				50A343D022A2B36000E4AA92 /* PhotoCropEditorBorder@3x.png in Resources */,
+				50A343AF22A2A49B00E4AA92 /* Main.storyboard in Resources */,
+				50A343CE22A2B36000E4AA92 /* PhotoCropEditorBorder.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01EF6F176CE27528DF4E1AAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Business_Card_Scanner_In_Swift/Pods-Business_Card_Scanner_In_Swift-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVTextDetectorResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVTextDetectorResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Business_Card_Scanner_In_Swift/Pods-Business_Card_Scanner_In_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EE1429BCA8C256CFC253857 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Business_Card_Scanner_In_Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A3EAAFC0B1D1EA70ECE6071 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Business_Card_Scanner_In_Swift/Pods-Business_Card_Scanner_In_Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Business_Card_Scanner_In_Swift/Pods-Business_Card_Scanner_In_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A343A222A2A49B00E4AA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A343AC22A2A49B00E4AA92 /* ViewController.swift in Sources */,
+				50A343D122A2B36000E4AA92 /* ResizeControl.swift in Sources */,
+				50A343C022A2AAC400E4AA92 /* ScannedInfoShowDetailsVC.swift in Sources */,
+				50A343DF22A2B3E600E4AA92 /* Utilities.swift in Sources */,
+				50A343CC22A2B36000E4AA92 /* CropView.swift in Sources */,
+				50A343AA22A2A49B00E4AA92 /* AppDelegate.swift in Sources */,
+				50A343DD22A2B3E600E4AA92 /* ImageUtils.swift in Sources */,
+				50A343CB22A2B36000E4AA92 /* CropRectView.swift in Sources */,
+				50A343B222A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift.xcdatamodeld in Sources */,
+				50A343CD22A2B36000E4AA92 /* CropViewController.swift in Sources */,
+				50A343DA22A2B3E600E4AA92 /* CardDetectionUtility.swift in Sources */,
+				50A343DB22A2B3E600E4AA92 /* DetectionUtility.swift in Sources */,
+				50A343D222A2B36000E4AA92 /* UIImage+Crop.swift in Sources */,
+				50A343DC22A2B3E600E4AA92 /* FaceDetectionUtility.swift in Sources */,
+				50A343DE22A2B3E600E4AA92 /* OCRUtility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50A343AD22A2A49B00E4AA92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A343AE22A2A49B00E4AA92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50A343B522A2A4A800E4AA92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A343B622A2A4A800E4AA92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50A343B922A2A4A800E4AA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Digify Software Private Limited (94SS44ZF6D)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "ce807b10-514f-482b-82b5-3303223cf01f";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50A343BA22A2A4A800E4AA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Digify Software Private Limited (94SS44ZF6D)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ce807b10-514f-482b-82b5-3303223cf01f";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50A343BC22A2A4A800E4AA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1EFF94DCD3F0291B4CD781 /* Pods-Business_Card_Scanner_In_Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Digify Software Private Limited (94SS44ZF6D)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Business_Card_Scanner_In_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.digify.digilife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ce807b10-514f-482b-82b5-3303223cf01f";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50A343BD22A2A4A800E4AA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 881BDC2DA0C3095759F54997 /* Pods-Business_Card_Scanner_In_Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Digify Software Private Limited (94SS44ZF6D)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Business_Card_Scanner_In_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.digify.digilife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ce807b10-514f-482b-82b5-3303223cf01f";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A343A122A2A49B00E4AA92 /* Build configuration list for PBXProject "Business_Card_Scanner_In_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A343B922A2A4A800E4AA92 /* Debug */,
+				50A343BA22A2A4A800E4AA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A343BB22A2A4A800E4AA92 /* Build configuration list for PBXNativeTarget "Business_Card_Scanner_In_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A343BC22A2A4A800E4AA92 /* Debug */,
+				50A343BD22A2A4A800E4AA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50A343B022A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50A343B122A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift.xcdatamodel */,
+			);
+			currentVersion = 50A343B122A2A49B00E4AA92 /* Business_Card_Scanner_In_Swift.xcdatamodel */;
+			path = Business_Card_Scanner_In_Swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50A3439E22A2A49B00E4AA92 /* Project object */;
+}
